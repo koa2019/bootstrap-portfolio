@@ -8,3 +8,13 @@ body {
     max-width:960px;
     
 }
+
+.navbar-brand {
+    background-color: teal;
+    color: white;
+}
+/* Ask not working */
+.navbar px-5  { 
+    padding-left: 5rem!important;
+    padding-right: 5rem!important;
+  }
