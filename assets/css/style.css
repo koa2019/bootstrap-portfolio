@@ -26,7 +26,13 @@ a.navbar-brand.p-4  {
   }
 
   p {
+
   }
   img {
       margin-right: 1rem;
+  }
+
+  button.btn.btn-primary {
+      background-color: teal;
+      border-color: teal;
   }
