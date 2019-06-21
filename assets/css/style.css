@@ -35,4 +35,13 @@ a.navbar-brand.p-4  {
   button.btn.btn-primary {
       background-color: teal;
       border-color: teal;
+    
+  }
+
+  .form-group {
+      width: 100%;
+  }
+  hr {
+      margin:0;
+      padding:0;
   }
