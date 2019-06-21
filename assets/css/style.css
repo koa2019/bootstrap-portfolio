@@ -11,10 +11,22 @@ body {
 
 .navbar-brand {
     background-color: teal;
+}
+a.navbar-brand.p-4  {
     color: white;
 }
 /* Ask not working */
 .navbar px-5  { 
     padding-left: 5rem!important;
     padding-right: 5rem!important;
+  }
+
+  h2 {
+      color:teal;
+  }
+
+  p {
+  }
+  img {
+      margin-right: 1rem;
   }
