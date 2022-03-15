@@ -1,43 +1,55 @@
 body {
-    background-color: #c3c6dabb;
-
+    /*background-color: #c3c6dabb;  
+    background-color: black;  */
+   
+}
+*, a {
+    color: rgb(95, 148, 15);
 }
 
 .containerBody {
-    background-color: #fff;
+    background: url("../images/concrete_seamless.png");
+   /* background-color: #fff;  */
     max-width:960px;
     
 }
-
-.navbar-brand {
-    background-color: teal;
+.nav-link {
+    color: rgb(95, 148, 15);
 }
+.navbar-brand {
+    background-color:  rgb(95, 148, 15);
+}
+
 a.navbar-brand.p-4  {
     color: white;
 }
-/* Ask not working */
-.navbar px-5  { 
-    padding-left: 5rem!important;
-    padding-right: 5rem!important;
-  }
 
-  h2 {
-      color:teal;
-  }
-
-  p {
-
-  }
-  img {
-      margin-right: 1rem;
-  }
-
-  button.btn.btn-primary {
-      background-color: teal;
-      border-color: teal;
+h2 {
+    color: rgb(95, 148, 15);
+}
+hr {
+    color: rgb(95, 148, 15);
+}
+.btn {
+      background-color:rgb(95, 148, 15);
+      border-color: rgb(95, 148, 15);
     
-  }
+}
+.card img {
+    width: 220px;
+    height: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(95, 148, 15);
+    margin-left: 15px;
+}
 
+.cardImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    
+}
   .form-group {
       width: 100%;
   }
@@ -45,7 +57,7 @@ a.navbar-brand.p-4  {
       margin:0;
       padding:0;
   }
-  .box figcaption{
+  .box1 figcaption{
     
     font-size: 20px;  
     height: 60px;
@@ -55,4 +67,12 @@ a.navbar-brand.p-4  {
     position: absolute;
     top:200px;
 
+}
+.card {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95, 148, 15);
+}
+footer p {
+    color: rgb(95, 148, 15);
 }
