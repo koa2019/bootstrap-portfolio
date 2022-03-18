@@ -12,6 +12,9 @@ a {
     text-decoration: none;
     color: rgba(0, 255, 0, 0.753);
 }
+a:hover {
+    color: white;
+}
 .containerPortfolio {
     /*background: url("../images/concrete_seamless.png");   */
     background-color: black;  
@@ -60,22 +63,19 @@ a {
 .navbar {
   background-color: black;   
 }
-.btn:hover {
-    opacity: 0.70;
-  }
-
 a.navbar-brand.p-4  {
     color: rgba(0, 255, 0, 0.753);
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(0, 255, 0, 0.753);
 }
-
-
 .btn {
     background-color:rgb(95, 148, 15);
     border-color: rgb(95, 148, 15);
     float: right;
+}
+.btn:hover {
+    opacity: 0.70;
 }
 .card {
     background-color: rgb(34, 37, 33);
@@ -83,8 +83,11 @@ a.navbar-brand.p-4  {
     border-style: solid;
     border-color: rgba(0, 255, 0, 0.753);
 }
+.card h5 {
+    margin-bottom: .5rem;
+}
 .card img {
-    width: 220px;
+    width: 200px;
     height: 200px;
     border: 2px;
     border-style: solid;
@@ -92,12 +95,11 @@ a.navbar-brand.p-4  {
     margin-left: 15px;
     background-color: white;
 }
-
 .aLinkImgDiv {
-    width: 200px;
-    height: 200px;
-    margin-top: 1rem; 
-    margin-left: 1rem;
+   /* width: 200px;
+    height: 200px;   */
+    margin-top: 1.25rem; 
+    margin-left: 1.70rem;
 }
 .mainImg {
     float: left;
@@ -110,7 +112,6 @@ a.navbar-brand.p-4  {
   /* Positioning */
   margin-right: 25px;
 }
-
 .form-group {
       width: 100%;
 }
@@ -136,6 +137,12 @@ footer img {
     height: 100px;
     background-color: rgba(0, 255, 0, 0.753);
 }
+.gitDiv, .gitDiv a {
+    text-align: center;
+    color: #6c757d;
+    font-size: small;
+    font-weight: 610;
+}
 hr {
     color: rgb(95, 148, 15);
     margin:0;
@@ -144,6 +151,8 @@ hr {
 
 
 /***    contact.html    ***/
+/*************************/
+
 form label {
     margin-bottom: .75rem;
 }
